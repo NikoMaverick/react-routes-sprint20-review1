@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import projectsWork from "../data/projects";
+import Header from '../template/Header';
+
 
 
 function Projects () {
@@ -11,6 +13,7 @@ function Projects () {
 
     return (
         <>
+        <Header />
         <h1>Projects</h1>
         <p>Estos son mis proyectos</p>
         <ul>

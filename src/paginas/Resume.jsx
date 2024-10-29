@@ -1,8 +1,10 @@
 import { studies, experiences } from "../data/resume"
+import Header from "../Template/Header"
 
 function Resume () {
     return (
         <>
+        <Header />
         <h2>Estudios Realizados</h2>
         <ul>
             {studies.map(study => <li key={study.id}>
